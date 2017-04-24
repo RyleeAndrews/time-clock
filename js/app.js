@@ -11,3 +11,12 @@ function Schedule() {
   this.thursday = [];
   this.friday = [];
 }
+
+
+function makeTable(){
+  var main = document.getElementById('main');
+  var table = document.getElementById('table');
+  table.setAttribute('id', 'table');
+  main.appendChild(table);
+}
+makeTable();
